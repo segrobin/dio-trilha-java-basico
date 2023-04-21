@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/Execicio-Arrays/Execicio-Arrays.iml" filepath="$PROJECT_DIR$/tipos-variaveis/Execicio-Arrays/Execicio-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/Metodos.java/Metodos.java.iml" filepath="$PROJECT_DIR$/tipos-variaveis/Metodos.java/Metodos.java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" filepath="$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objeto/programacao-orientada-objeto.iml" filepath="$PROJECT_DIR$/programacao-orientada-objeto/programacao-orientada-objeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" filepath="$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" />
     </modules>
   </component>
