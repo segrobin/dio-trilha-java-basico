@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objeto/EstudosClasse/EstudosClasse.iml" filepath="$PROJECT_DIR$/programacao-orientada-objeto/EstudosClasse/EstudosClasse.iml" />
       <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/Execicio-Arrays/Execicio-Arrays.iml" filepath="$PROJECT_DIR$/tipos-variaveis/Execicio-Arrays/Execicio-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploList/ExemploList.iml" filepath="$PROJECT_DIR$/ExemploList/ExemploList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploMap/ExemploMap.iml" filepath="$PROJECT_DIR$/ExemploMap/ExemploMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploSet/ExemploSet.iml" filepath="$PROJECT_DIR$/ExemploSet/ExemploSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/Metodos.java/Metodos.java.iml" filepath="$PROJECT_DIR$/tipos-variaveis/Metodos.java/Metodos.java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" filepath="$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" />
       <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objeto/programacao-orientada-objeto.iml" filepath="$PROJECT_DIR$/programacao-orientada-objeto/programacao-orientada-objeto.iml" />
