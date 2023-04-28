@@ -1,8 +1,4 @@
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.Collection;
+import java.util.*;
 
 public class ExemploMap {
     public static void main(String[] args) {
@@ -36,10 +32,36 @@ public class ExemploMap {
         Set<Map.Entry<String, Double>> entries = carrosPopulares.entrySet();
         String modeloMaisEficiente = "";
         for (Map.Entry<String,Double> entrey : entries){
-            if (entrey.getValue().equals(consumoMaisEficiente))
+            if (entrey.getValue().equals(consumoMaisEficiente)) {
                 modeloMaisEficiente = entrey.getKey();
-            System.out.println("modelo mais eficienete "+ modeloMaisEficiente +" "+ consumoMaisEficiente);
+                System.out.println("modelo mais eficienete " + modeloMaisEficiente + " " + consumoMaisEficiente);
+            }
         }
+        System.out.println("Exiba o modelo menos economico e seu consumo: ");
+        Double consumoMenosEficinete = Collections.min(carrosPopulares.values());
+        String modeloMenosEficiente = "";
+        for (Map.Entry<String, Double> entry: carrosPopulares.entrySet()) {
+            if (entry.getValue().equals(consumoMenosEficinete)){
+                modeloMenosEficiente = entry.getKey();
+                System.out.println("modelo menos eficiente"+ modeloMenosEficiente +"" +consumoMenosEficinete);
+            }
+        }
+        System.out.println("Exiba a soma dos consumos");
+        Iterator<Double> iterator = carrosPopulares.values().iterator();
+        Double soma = 0d;
+        while (iterator.hasNext()){
+            soma += iterator.next();
+        }
+        System.out.println(soma);
+        System.out.println("Media "+ soma/carrosPopulares.size());
+        System.out.println("Remoca os modelos com consumo igual 15,6 ");
+        Iterator<Double> iterator1 = carrosPopulares.values().iterator();
+        while (iterator1.hasNext()){
+            if (iterator1.next().equals(15.6)){
+                iterator1.remove();
+            }
+        }
+
 
 
     }
